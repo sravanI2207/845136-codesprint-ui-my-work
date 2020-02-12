@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+ <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ <style>
+    .sidebar {
+        margin: 0;
+        padding: 0;
+        width: 250px;
+        background-color: gray;
+        position: absolute;
+        height: 100%;
+       
+        text-align: center;
+    }
+
+    /* Sidebar links */
+    .sidebar a {
+        display: block;
+        color: black;
+        padding: 16px;
+        text-decoration: none;
+    }
+
+
+
+    /* Links on mouse-over */
+    .sidebar a:hover:not(.active) {
+        background-color:  #4CAF50;
+        color: white;
+    }
+
+    /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+    div.content {
+        margin-left: 200px;
+        padding: 1px 16px;
+        height: 1000px;
+    }
+
+    /* On screens that are less than 700px wide, make the sidebar into a topbar */
+    @media screen and (max-width: 700px) {
+        .sidebar {
+            width: 100%;
+            height: auto;
+            position: absolute;
+color: black;
+        }
+
+        .sidebar a {
+            float: left;
+        }
+
+        div.content {
+            margin-left: 0;
+        }
+    }
+
+    /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+    @media screen and (max-width: 400px) {
+        .sidebar a {
+            text-align: center;
+            float: none;
+        }
+    }
+</style>
+
+</head>
+
+<body>
+<!-- row1 for logo -->
+        <div class="row col-12-sm-6-lg-8">
+<div class="col">
+            <img src="https://titusville.org/wp-content/uploads/2017/08/Gift-Card-logo-.png"  style="width:120px"  height="100px">
+</div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <!-- row2 for nav bar -->
+             <nav  class="navbar navbar-expand-lg navbar-light " style="background-color:gold;font-weight: bold;">
+<!-- Brand -->
+<a class="navbar-brand" href="landing_page.html"></a>
+
+<!-- Toggler/collapsibe Button -->
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<!-- Navbar links -->
+<div class="collapse navbar-collapse ml-auto justify-content-end" id="collapsibleNavbar">
+<ul class="navbar-nav">
+<li class="nav-item">
+<a class="nav-link text-dark" href="home.html">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link text-dark" href="contactcard.html">Contact Us</a>
+</li>
+<li class="nav-item">
+<a class="nav-link text-dark" href="giftcardplaceorder.html">Place Order</a>
+</li>
+<li class="nav-item">
+<a class="nav-link text-dark" href="viewcard.html">View Order</a>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+        </div>
+<div class="row .col-12-sm-6-lg-8">
+<div class="col-2">
+      <div class="sidebar" style="background-color:gold;font-weight: bold;">
+       <a  href="home.html">Home</a>
+       <a href="giftcardplaceorder.html">Place Order</a>
+       <a href="viewcard.html">View Order</a>
+       <a href="contactcard.html">Contact Us</a>
+    </div>  
+</div>
+<div class="col mx-5">
+<p>A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs. This is because paragraphs show a reader where the subdivisions of an essay begin and end, and thus help the reader see the organization of the essay and grasp its main points.A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs. This is because paragraphs show a reader where the subdivisions of an essay begin and end, and thus help the reader see the organization of the essay and grasp its main points.
+A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs. This is because paragraphs show a reader where the subdivisions of an essay begin and end, and thus help the reader see the organization of the essay and grasp its main points.
+A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs. This is because paragraphs show a reader where the subdivisions of an essay begin and end, and thus help the reader see the organization of the essay and grasp its main points.
+A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs. This is because paragraphs show a reader where the subdivisions of an essay begin and end, and thus help the reader see the organization of the essay and grasp its main points.
+A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs. This is because paragraphs show a reader where the subdivisions of an essay begin and end, and thus help the reader see the organization of the essay and grasp its main points.
+A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs. This is because paragraphs show a reader where the subdivisions of an essay begin and end, and thus help the reader see the organization of the essay and grasp its main points.
+A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs. This is because paragraphs show a reader where the subdivisions of an essay begin and end, and thus help the reader see the organization of the essay and grasp its main points.</p>
+ 
+<button type="submit" class="btn btn-warning jumbotron jumbotron-fluid mt-5" style="width: 100%"><a href="giftcardplaceorder.html">Place Order</a></button>
+ 
+</div>
+</body>
+
+</html>
